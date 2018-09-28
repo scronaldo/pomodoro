@@ -11,8 +11,9 @@
     "@babel/preset-react": "^7.0.0",
     "autoprefixer": "^9.1.5",
     "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.4",
     "babel-plugin-import-inspector": "^2.0.0",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
@@ -40,9 +41,11 @@
     "file-loader": "^2.0.0",
     "html-webpack-plugin": "^3.2.0",
     "import-inspector": "^2.0.0",
+    "jest": "^23.6.0",
     "node-sass": "^4.9.3",
     "postcss-flexbugs-fixes": "^4.1.0",
     "postcss-loader": "^3.0.0",
+    "puppeteer": "^1.8.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
     "svg-sprite-loader": "^4.1.2",
@@ -77,6 +80,7 @@
   "scripts": {
     "dev": "webpack-dev-server --open --config configs/webpack.config.dev.js",
     "build": "webpack --progress --config configs/webpack.config.prod.js",
-    "lint": "eslint ./src/** --ext js,jsx"
+    "lint": "eslint ./src/** --ext js,jsx",
+    "test": "jest"
   }
 }

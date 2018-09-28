@@ -10,6 +10,7 @@ export default function Logo() {
       className={style.logo}
     >
       Pomodoro Time
+      <h1>fsdfsdg</h1>
     </a>
   );
 }
