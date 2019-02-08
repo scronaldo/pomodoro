@@ -1,2 +1,2 @@
 # pomodoro
-Time management service
+The best time management service
